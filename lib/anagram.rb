@@ -7,14 +7,11 @@ def initalize(main_word)
 end
 
 def match(array_of_words)
-#  list = []
-  array_of_words.select do |word|
-    @main_word.split("").sort == word.split("").sort
-#    list << word
+  
+  array_of_words.select do |element|
+    @main_word.split("").sort == element.split("").sort
   end
-#list
 end
-
 
 end #end of class Anagram
 
