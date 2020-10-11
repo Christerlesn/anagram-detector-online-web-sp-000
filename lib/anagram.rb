@@ -29,8 +29,8 @@ def match(array_of_words)
     @main_word.split("").sort == word.split("").sort
     similar << word
   end
-end
 similar
+end
 
 
 end #end of class Anagram
