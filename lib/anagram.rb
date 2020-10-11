@@ -7,7 +7,7 @@ def initalize(main_word)
 end
 
 def match(array_of_words)
-  
+
   array_of_words.select do |element|
     @main_word.split("").sort == element.split("").sort
   end
