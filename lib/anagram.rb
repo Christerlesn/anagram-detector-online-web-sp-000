@@ -15,4 +15,4 @@ end
 
 end #end of class Anagram
 
-#binding.pry
+binding.pry
