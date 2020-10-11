@@ -9,7 +9,7 @@ end
 def match
   array_of_words.each do |word|
     test = word.chars.sort.join
-    if main_word.chars.sort.join = test
+    if @main_word.chars.sort.join = test
       puts "#{word}"
     else
     end
