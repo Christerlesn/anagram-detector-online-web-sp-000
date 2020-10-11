@@ -16,9 +16,8 @@ def match
   end
 end
 
-#binding.pry
-
-
 
 
 end #end of class Anagram
+
+binding.pry
